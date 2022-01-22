@@ -1,0 +1,121 @@
+.goods {
+  padding-bottom: 27px;
+}
+
+.goods__head {
+  margin-bottom: 50px;
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 700;
+}
+
+.goods__list {
+  display: grid;
+  gap: 50px 60px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.goods__item {
+  transition: box-shadow .2s linear;
+}
+
+.goods__item:hover {
+  box-shadow: 0 10px 25px 0 rgb(41 52 73 / 50%);
+}
+
+.goods__box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.goods__price {
+  margin-right: 20px;
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+.goods__old-price {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: line-through;
+  white-space: pre;
+}
+
+.goods__currency {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.goods__title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 400;
+}
+
+.goods__img {
+  display: block;
+}
+
+.goods__wrap {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.goods__wrap:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #ffbd13;
+  color: #fff;
+  font-size: 30px;
+  line-height: 88px;
+  text-align: center;
+}
+
+.goods__wrap--one:after {
+  content: "-30%";
+}
+
+.goods__wrap--two:after {
+  content: "-50%";
+}
+
+.goods__wrap--three:after {
+  content: "-40%";
+}
+
+.goods__wrap--four:after {
+  content: "-10%";
+}
+
+.goods__wrap--five:after {
+  content: "-30%";
+}
+
+.goods__wrap--six:after {
+  content: "-10%";
+}
+
+.goods__wrap--seven:after {
+  content: "-30%";
+}
+
+.goods__wrap--eight:after {
+  content: "-30%";
+}
+
+.goods__wrap--nine:after {
+  content: "-50%";
+}
+
+.goods__wrap--ten:after {
+  content: "-40%";
+}

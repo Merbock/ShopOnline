@@ -1,0 +1,29 @@
+.breadcrumbs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+.breadcrumbs__item {
+  position: relative;
+  line-height: 21px;
+}
+
+.breadcrumbs__item:not(:last-child) .breadcrumbs__link:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("../img/right.svg");
+  width: 6px;
+  height: 10px;
+}
+
+.breadcrumbs__link {
+  padding-right: 22px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #525252;
+}

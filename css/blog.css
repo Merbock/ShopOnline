@@ -1,0 +1,43 @@
+.blog {
+  max-width: 1095px;
+}
+
+.blog__text {
+  margin-bottom: 22px;
+}
+
+.blog__text--margin-big {
+  margin-bottom: 75px;
+}
+
+.blog__text--margin-middle {
+  margin-bottom: 50px;
+}
+
+.blog__title {
+  margin-top: 0;
+  margin-bottom: 41px;
+  font-size: 50px;
+  line-height: 65px;
+}
+
+.blog__list {
+  padding: 0;
+  counter-reset: count 0;
+  margin: 0 0 59px 0;
+  list-style: none;
+}
+
+.blog__img {
+  margin-bottom: 43px;
+}
+
+.blog__text--margin {
+  margin-bottom: 63px;
+}
+
+.blog__foot {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 49px;
+}

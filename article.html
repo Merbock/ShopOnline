@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preload" href="fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <title>ShopOnline</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="img/logo.svg" alt="Логотип компании" width="188" height="31">
+        </a>
+        <nav class="header__nav nav">
+          <button class="nav__btn" type="button">Меню</button>
+        </nav>
+        <form class="search-box">
+          <div class="search-box__wrap">
+            <label class="visually-hidden" for="text">Введите запрос</label>
+            <input class="search-box__input" type="text" placeholder="Я ищу..." id="text">
+            <button class="search-box__btn" type="submit"></button>
+          </div>
+        </form>
+        <div class="header__info">
+          <a class="header__link header__link--profile" href="#">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 18C21.315 18 24 15.315 24 12C24 8.685 21.315 6 18 6C14.685 6 12 8.685 12 12C12 15.315 14.685 18 18 18ZM18 21C13.995 21 6 23.01 6 27V30H30V27C30 23.01 22.005 21 18 21Z" fill="#2D2D2D"/>
+            </svg>
+            <p class="header__text">Профиль</p>
+          </a>
+          <a class="header__link header__link--basket" href="#">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.5 27C8.85 27 7.515 28.35 7.515 30C7.515 31.65 8.85 33 10.5 33C12.15 33 13.5 31.65 13.5 30C13.5 28.35 12.15 27 10.5 27ZM1.5 3V6H4.5L9.9 17.385L7.875 21.06C7.635 21.48 7.5 21.975 7.5 22.5C7.5 24.15 8.85 25.5 10.5 25.5H28.5V22.5H11.13C10.92 22.5 10.755 22.335 10.755 22.125L10.8 21.945L12.15 19.5H23.325C24.45 19.5 25.44 18.885 25.95 17.955L31.32 8.22C31.44 8.01 31.5 7.755 31.5 7.5C31.5 6.675 30.825 6 30 6H7.815L6.405 3H1.5ZM25.5 27C23.85 27 22.515 28.35 22.515 30C22.515 31.65 23.85 33 25.5 33C27.15 33 28.5 31.65 28.5 30C28.5 28.35 27.15 27 25.5 27Z" fill="#2D2D2D"/>
+            </svg>
+            <p class="header__text">Корзина</p>
+          </a>
+          <a class="header__link header__link--wish" href="#">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 32.025L15.825 30.045C8.1 23.04 3 18.42 3 12.75C3 8.13 6.63 4.5 11.25 4.5C13.86 4.5 16.365 5.715 18 7.635C19.635 5.715 22.14 4.5 24.75 4.5C29.37 4.5 33 8.13 33 12.75C33 18.42 27.9 23.04 20.175 30.06L18 32.025Z" fill="#2D2D2D"/>
+            </svg>
+            <p class="header__text">Избранное</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+      <main>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Блог</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link">Как ухаживать за обувью из кожи</a>
+          </li>
+        </ul>
+        <div class="article-box">
+          <article class="blog">
+            <h1 class="blog__title">Как ухаживать за обувью из кожи</h1>
+            <p class="blog__text blog__text--margin-big">
+              Материала для обуви лучше натуральной кожи все ещё не придумали. Качественную кожу очень приятно носить, она идеально ложится по ноге, в нужных местах немного растягивается. В кожаной обуви, если она соответствует погоде, создаётся хороший микроклимат – ноги не мёрзнут, не потеют, и чувствуют себя очень комфортно. Неудивительно, что по статистике больше 60% покупателей выбирает обувь именно из гладкой натуральной кожи. Вдобавок кожа практична и не требует трудоёмкого ухода.
+            </p>
+            <p class="blog__text blog__text--margin-middle">
+              Но это совсем не означает, что можно раз в полгода протереть обувь тряпочкой и на этом остановиться. Так же, как кожа лица и тела, материал обуви нуждается в заботе. Регулярный уход надолго продлит срок службы любимой пары и сделает её аккуратной и сияющей, словно только что из магазина.
+            </p>
+            <ol class="blog__list blog-list">
+              <li class="blog-list__item">
+                <a class="blog-list__link" href="#attention">На что стоит обратить внимание перед покупкой</a>
+              </li>
+              <li class="blog-list__item">
+                <a class="blog-list__link" href="#wear">Перед тем, как надеть обувь первый раз</a>
+              </li>
+              <li class="blog-list__item">
+                <a class="blog-list__link" href="#care">Ежедневный уход за кожаной обувью в домашних условиях</a>
+              </li>
+            </ol>
+            <img class="blog__img" src="img/shoes.jpg" alt="коричневые туфли на коврике" width="1095" height="560">
+            <section class="attention" id="attention">
+              <h2 class="attention__title title">На что стоит обратить внимание перед покупкой</h2>
+              <p class="attention__text">
+                Подбирайте обувь точно по размеру и полноте. Слишком тесная обувь будет чрезмерно растягиваться, и кожа испортится, не говоря уже о дискомфорте. А если модель сидит слишком свободно, то при ходьбе на ней начнут образовываться складки и заломы.
+              </p>
+            </section>
+            <section class="wear" id="wear">
+              <h2 class="wear__title title">Перед тем, как надеть обувь первый раз</h2>
+              <p class="wear__text">
+                Перед первой ноской для новой пары нужно подобрать водо- или грязеотталкивающее средство, подходящее для натуральной кожи, и обработать кожу в соответствии с инструкцией. После высыхания – чистить кремом.
+              </p>
+            </section>
+            <section class="care" id="care">
+              <h2 class="care__title title">Ежедневный уход за кожаной обувью в домашних условиях</h2>
+              <p class="care__text">
+                Лучше всего заняться обувью сразу после возвращения домой. Если этого не делать, то со временем появляются трудновыводимые пятна, портится цвет кожи, образуются трещины.
+              </p>
+              <p class="care__text care__text--margin">
+                После каждого выхода на улицу протирайте обувь сухой салфеткой, если на коже только пыль, или влажной тряпкой - в случае сильного загрязнения. Начинайте мыть с каблука, затем очистите подошву и после этого – материал верха. После мытья нужно как следует протереть пару мягкой тканью, чтобы избавить от лишней влаги. Иначе обувь будет сушиться очень долго.
+              </p>
+              <img class="blog__img" src="img/clean.jpg" alt="щетки и крем для чистки обуви" width="1095" height="560">
+              <p class="blog__text">Второй этап – сушка.</p>
+              <p class="blog__text">
+                Ни в коем случае не используйте источники тепла – батарею, обогреватель, фен с горячим воздухом. Да, они сушат быстро, но за это приходит расплата в виде задубевшей покоробившейся кожи.
+              </p>
+              <p class="blog__text">
+                Нужно вытащить стельки, набить обувь бумагой либо положить внутрь формодержатели и сушить при комнатной температуре. Тогда ваши туфли или сапоги надолго сохранят красивую форму без заломов.
+              </p>
+              <p class="blog__text blog__text--margin">
+                Сушка длится довольно долго, и поэтому не рекомендуется носить одну и ту же пару каждый день. Обувь и подкладка должны отдохнуть и расправиться, только тогда вам будет комфортно и тепло.
+              </p>
+              <p class="blog__text">И наконец – крем.</p>
+              <p class="blog__text">Сухую и чистую пару нужно обработать кремом, чтобы кожа оставалась эластичной, мягкой и блестящей.</p>
+              <p class="blog__text">Нанесите крем тоненьким слоем с помощью обувной щётки, и аккуратно распределите по всей поверхности. Затем через несколько часов, когда крем впитается, сотрите остатки сухой салфеткой и отполируйте кожу мягкой тряпочкой.</p>
+              <p class="blog__text">Крем подбирается точно в цвет обуви, поэтому стоит задуматься ещё перед покупкой, каким уходовым средством вы будете пользоваться.</p>
+              <p class="blog__text">В магазине легко подобрать черный, коричневый и самый универсальный – бесцветный крем. В продаже есть и другие цвета, но бывает сложно найти нужный оттенок.</p>
+              <p class="blog__text">По мере необходимости дополнительно обрабатывайте пару водоотталкивающими спреями.</p>
+            </section>
+            <div class="blog__foot blog-foot">
+              <div class="blog-foot__box">
+                <a class="blog-foot__link" href="#">К списку статей</a>
+              </div>
+              <div class="blog-foot__author blog-author">
+                <div class="blog-author__box">
+                  <img class="blog-author__img" src="img/author.png" alt="Аватар автора статьи" width="83" height="83">
+                  <p class="blog-author__name">Инга Соловьева</p>
+                </div>
+                <p class="blog-author__date">22 октября 2021, 12:45</p>
+                <div class="blog-author__statistics">
+                  <p class="blog-author__views">1.2K</p>
+                  <p class="blog-author__comments">0</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <aside>
+            <div class="banner-wrap">
+              <a class="banner banner--country" href="#">
+                <p class="banner__text">Горящие туры в Стамбул от 20 000 руб.</p>
+                <p class="banner__subtext">Окунись в настоящую восточную сказку</p>
+              </a>
+              <a class="banner banner--car" href="#">
+                <p class="banner__text">Новый RENAULT DUSTER</p>
+                <p class="banner__subtext">Легендарный внедорожник в новом дизайне</p>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </main>
+  </div>
+</body>
+</html>

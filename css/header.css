@@ -1,0 +1,52 @@
+.header {
+  padding: 27px 0 60px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__text {
+  margin-bottom: 0;
+}
+
+.header__info {
+  display: flex;
+  gap: 70px;
+}
+
+.header__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: #2d2d2d;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  transition: color .2s linear;
+}
+
+.header__link svg path{
+  transition: fill .2s linear;
+}
+
+.header__link:hover,
+.header__link:focus{
+  color: #8f8f8f;
+}
+
+.header__link:active {
+  color: #bdb6b6;
+}
+
+.header__link:hover svg path,
+.header__link:focus svg path{
+  fill: #2bc22b;
+}
+
+.header__link:active svg path {
+  fill: #1a831a;
+}

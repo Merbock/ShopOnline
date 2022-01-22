@@ -1,0 +1,22 @@
+.blog-list__item {
+  position: relative;
+  padding-left: 25px;
+  line-height: 20px;
+}
+
+.blog-list__item:before {
+  content: counter(count) ".";
+  counter-increment: count;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  left: 5px;
+  top: 0;
+}
+
+.blog-list__link {
+  color: #525252;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}

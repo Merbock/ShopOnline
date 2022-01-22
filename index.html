@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preload" href="fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <title>ShopOnline</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="logo">
+        <img class="logo__img" src="img/logo.svg" alt="Логотип компании" width="188" height="31">
+      </a>
+      <nav class="header__nav nav">
+        <button class="nav__btn" type="button">Меню</button>
+      </nav>
+      <form class="search-box">
+        <div class="search-box__wrap">
+          <label class="visually-hidden" for="text">Введите запрос</label>
+          <input class="search-box__input" type="text" placeholder="Я ищу..." id="text">
+          <button class="search-box__btn" type="submit"></button>
+        </div>
+      </form>
+      <div class="header__info">
+        <a class="header__link header__link--profile" href="#">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 18C21.315 18 24 15.315 24 12C24 8.685 21.315 6 18 6C14.685 6 12 8.685 12 12C12 15.315 14.685 18 18 18ZM18 21C13.995 21 6 23.01 6 27V30H30V27C30 23.01 22.005 21 18 21Z" fill="#2D2D2D"/>
+          </svg>
+          <p class="header__text">Профиль</p>
+        </a>
+        <a class="header__link header__link--basket" href="#">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.5 27C8.85 27 7.515 28.35 7.515 30C7.515 31.65 8.85 33 10.5 33C12.15 33 13.5 31.65 13.5 30C13.5 28.35 12.15 27 10.5 27ZM1.5 3V6H4.5L9.9 17.385L7.875 21.06C7.635 21.48 7.5 21.975 7.5 22.5C7.5 24.15 8.85 25.5 10.5 25.5H28.5V22.5H11.13C10.92 22.5 10.755 22.335 10.755 22.125L10.8 21.945L12.15 19.5H23.325C24.45 19.5 25.44 18.885 25.95 17.955L31.32 8.22C31.44 8.01 31.5 7.755 31.5 7.5C31.5 6.675 30.825 6 30 6H7.815L6.405 3H1.5ZM25.5 27C23.85 27 22.515 28.35 22.515 30C22.515 31.65 23.85 33 25.5 33C27.15 33 28.5 31.65 28.5 30C28.5 28.35 27.15 27 25.5 27Z" fill="#2D2D2D"/>
+          </svg>
+          <p class="header__text">Корзина</p>
+        </a>
+        <a class="header__link header__link--wish" href="#">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 32.025L15.825 30.045C8.1 23.04 3 18.42 3 12.75C3 8.13 6.63 4.5 11.25 4.5C13.86 4.5 16.365 5.715 18 7.635C19.635 5.715 22.14 4.5 24.75 4.5C29.37 4.5 33 8.13 33 12.75C33 18.42 27.9 23.04 20.175 30.06L18 32.025Z" fill="#2D2D2D"/>
+          </svg>
+          <p class="header__text">Избранное</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <p class="hero__title">-50% на все ноутбуки</p>
+        <div class="hero__box">
+          <p class="hero__text">До конца акции:</p>
+          <div class="hero__time hero__time--days"><span class="hero__number">3</span>дня</div>
+          <div class="hero__time hero__time--hours"><span class="hero__number">8</span>часов</div>
+          <div class="hero__time hero__time--minutes"><span class="hero__number">43</span>минуты</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stock">
+    <div class="container">
+      <ul class="stock__list">
+        <li class="stock__item stock__item--one">
+          <a class="stock__link" href="#">
+            <p class="stock__text">
+              <span class="stock__text--bold">Книга –</span> лучший подарок
+            </p>
+          </a>
+        </li>
+        <li class="stock__item stock__item--two">
+          <a class="stock__link" href="#">
+            <p class="stock__text">
+              Время скидок!
+            </p>
+          </a>
+        </li>
+        <li class="stock__item stock__item--three">
+          <a class="stock__link" href="#"></a>
+        </li>
+        <li class="stock__item stock__item--four">
+          <a class="stock__link" href="#">
+            <p class="stock__text">
+              Вторая пара кроссовок <span class="stock__text--bold">в подарок!</span>
+            </p>
+          </a>
+        </li>
+        <li class="stock__item stock__item--five">
+          <a class="stock__link" href="#">
+            <p class="stock__text stock__text--bold">
+              Идеи новогодних подарков
+            </p>
+          </a>
+        </li>
+        <li class="stock__item stock__item--six">
+          <a class="stock__link" href="#">
+            <p class="stock__text stock__text--bold">
+              Выгодно в декабре!
+            </p>
+          </a>
+        </li>
+        <li class="stock__item stock__item--seven">
+          <a class="stock__link" href="#">
+            <p class="stock__text stock__text--bold">
+              Новогодние украшения
+            </p>
+          </a>
+        </li>
+        <li class="stock__item stock__item--eight">
+          <a class="stock__link" href="#"></a>
+        </li>
+        <li class="stock__item stock__item--nine">
+          <a class="stock__link" href="#">
+            <p class="stock__text">
+              На бытовую химию
+            </p>
+          </a>
+        </li>
+        <li class="stock__item stock__item--ten">
+          <a class="stock__link" href="#"></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="goods">
+    <div class="container">
+      <h2 class="goods__head">Это выгодно!</h2>
+      <ul class="goods__list">
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--one">
+              <img class="goods__img" src="img/good-1.png" alt="Варежки-мишки" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">540 ₽</span>
+              <span class="goods__old-price">890 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Варежки-мишки</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--two">
+              <img class="goods__img" src="img/good-2.png" alt="Пара футболок" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">1299 ₽</span>
+              <span class="goods__old-price">2598 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Пара футболок</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--three">
+              <img class="goods__img" src="img/good-3.png" alt="Кроссовки" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">2099 ₽</span>
+              <span class="goods__old-price">5938 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Кроссовки</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--four">
+              <img class="goods__img" src="img/good-4.png" alt="Постельное белье" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">3902 ₽</span>
+              <span class="goods__old-price">4490 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Постельное белье</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--five">
+              <img class="goods__img" src="img/good-5.png" alt="Фен" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">2999 ₽</span>
+              <span class="goods__old-price">6030 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Фен</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--six">
+              <img class="goods__img" src="img/good-4.png" alt="Постельное белье" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">3902 ₽</span>
+              <span class="goods__old-price">4490 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Постельное белье</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--seven">
+              <img class="goods__img" src="img/good-5.png" alt="Фен" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">2999 ₽</span>
+              <span class="goods__old-price">6030 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Фен</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--eight">
+              <img class="goods__img" src="img/good-1.png" alt="Варежки-мишки" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">540 ₽</span>
+              <span class="goods__old-price">890 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Варежки-мишки</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--nine">
+              <img class="goods__img" src="img/good-2.png" alt="Пара футболок" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">1299 ₽</span>
+              <span class="goods__old-price">2598 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Пара футболок</h3>
+          </a>
+        </li>
+        <li class="goods__item">
+          <a class="goods__link" href="#">
+            <div class="goods__wrap goods__wrap--ten">
+              <img class="goods__img" src="img/good-3.png" alt="Кроссовки" width="306" height="295">
+            </div>
+            <div class="goods__box">
+              <span class="goods__price">2099 ₽</span>
+              <span class="goods__old-price">5938 </span>
+              <span class="goods__currency">₽</span>
+            </div>
+            <h3 class="goods__title">Кроссовки</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+</body>
+</html>
